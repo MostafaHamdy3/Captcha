@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact form with Captcha</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- <form>
+      <input type="username" id="username" placeholder="What's your name?" />
+      <input type="password" id="password" placeholder="password" />
+    </form> -->
+
+    <form id="Form">
+      <h2 class="login">Member Login</h2>
+      <div class="form-control">
+        <div class="user">
+          <img class="img-icon" src="Images/user.png" />
+          <img src="Images/Divider.png" alt="" />
+          <input type="text" id="user" placeholder="Username" />
+        </div>
+        <div class="email">
+          <img class="img-icon" src="Images/mail.png" />
+          <img src="Images/Divider.png" alt="" />
+          <input type="email" id="mail" placeholder="Email" />
+        </div>
+        <div class="password">
+          <img class="img-icon" src="Images/padlock.png" />
+          <img src="Images/Divider.png" alt="" />
+          <input type="password" id="pass" placeholder="Password" />
+        </div>
+
+        <div class="captcha">
+          <div class="preview"></div>
+          <div class="captcha-form">
+            <input
+              type="text"
+              id="captcha-form"
+              placeholder="Enter captcha text"
+            />
+            <button class="captcha-refresh">
+              <!-- <i class="fa fa-refresh"></i> -->
+              <img class="img-icon" src="Images/reload (1).png" />
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <button class="btn">Login</button>
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>
